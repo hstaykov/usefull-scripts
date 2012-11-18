@@ -162,7 +162,7 @@ function install_desktop_extras {
 	sudo yum -y --skip-broken install gnome-themes-extras gnome-shell-extension* gnome-shell-theme*
     sudo yum -y --skip-broken install https://dl.dropbox.com/u/49862637/Mate-desktop/fedora_17/mate-desktop-fedora-updates/noarch/mate-desktop-release-17-2.fc17.noarch.rpm
     sudo yum -y --skip-broken groupinstall MATE-Desktop
-    sudo yum -y --skip-broken install –enablerepo=mate-desktop-fedora-new-application-testing compiz compiz-mate fusion-icon-gtk compiz-plugins-main compiz-plugins-extra compiz-plugins-extra-mate compiz-plugins-main-mate compiz-plugins-unsupported compiz-plugins-unsupported-mate
+    sudo yum -y --skip-broken install –enablerepo=mate-desktop-fedora-new-application-testing compiz compiz-mate fusion-icon-gtk compiz-plugins-main compiz-plugins-extra compiz-plugins-extra-mate compiz-plugins-main-mate compiz-plugins-unsupported compiz-plugins-unsupported-mate mate-utils
 	check_for_errors
 }
 
